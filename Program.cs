@@ -7,7 +7,9 @@ namespace myNewProgramm
         {
             var triangle = new Triangle();
 
-            Console.WriteLine(triangle.determineTriangleType(triangle));
+            var triangleType = triangle.determineTriangleType(triangle);
+
+            Console.WriteLine(triangleType);
         }
     }
 }
